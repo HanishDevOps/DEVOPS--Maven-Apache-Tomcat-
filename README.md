@@ -26,7 +26,7 @@ sudo tar -xvf apache-tomcat-9.0.65.tar.gz
 
 cd /opt/apache-tomcat-9.0.65/conf
 sudo vi tomcat-users.xml
-# ---add-below-line at the end (2nd-last line)----
+# add-below-line at the end (2nd-last line)
 # <user username="admin" password="admin1234" roles="admin-gui, manager-gui"/>
 
 sudo ln -s /opt/apache-tomcat-9.0.65/bin/startup.sh /usr/bin/startTomcat
